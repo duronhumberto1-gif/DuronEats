@@ -96,6 +96,7 @@ footer {
     text-align: center; 
     padding: 1rem 0; 
     margin-top: 20px; 
+
 } 
 
 /* --- Mobile Responsiveness (Media Queries) --- */ 
@@ -117,4 +118,37 @@ footer {
     header h1 { 
         font-size: 1.5rem; 
     } 
+}
+
+/* Centers the social media icons within their container */
+.social {
+  text-align: center;
+}
+
+/* Adds spacing around the icons */
+.social a {
+  margin: 0 10px;
+  display: inline-block; 
+}
+
+/* Makes all images uniform in size and appearance */
+.social img {
+  width: 50px;           
+  height: 50px;          
+  object-fit: cover;     
+  border-radius: 50%;    
+}
+
+p, h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+  font-size: 48px; /* Adjust this pixel value as needed */
 }
